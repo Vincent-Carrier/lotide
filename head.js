@@ -8,6 +8,7 @@ const assertEqual = function(actual, expected) {
 };
 
 function head(arr) {
+  if (!arr || arr === []) return undefined;
   return arr[0];
 }
 
