@@ -1,5 +1,3 @@
-const assert = require('assert');
-
 function eqArrays(arr1, arr2) {
   if (arr1.length !== arr2.length) return false
   for (let [i, e] of arr1.entries()) {
